@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<body>
+    <script>
+        var ss,str,str1,str2,idnum;
+        function getname()
+        {
+             ss=document.getElementById("form").src;
+             str= String(ss);
+             str1= str.split("4%AB");
+             str2= str1[2].split("%2E");
+             idnum=document.getElementById("idnum").value;
+        }
+
+        function ff() {
+            
+            getname();
+            if(idnum!="")
+            {
+                var num=idnum;
+            }
+            else
+            {
+                var num=parseInt( str2[0])+1;
+            }
+            document.getElementById("idnum").value="";
+            document.title="凡人修仙传"+ (parseInt( str2[0])+1)+"集";
+            var url_to ="https://www.ysts8.com/play/flw.asp?url=%D0%FE%BB%C3%D0%A1%CB%B5%2F2009%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB" +num+"%2Emp3&said=49";
+           document.getElementById("form").src=  url_to  ;
+           
+        }
+
+        window.onload =function()
+        {
+            getname();
+
+            document.title="凡人修仙传"+ parseInt( str2[0])+"集";
+        }
+    </script>
+<title>无广告听书</title>
+</head>
+<body>
+<iframe  id="form" src="https://www.ysts8.com/play/flw.asp?url=%D0%FE%BB%C3%D0%A1%CB%B5%2F2009%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB129%2Emp3&said=49" width="645px" height="59px" scrolling="no" frameborder="0"></iframe>
+</Br>
+<input type="text" id="idnum">
+<button onclick="ff()">下一集</button>
+</Br>
+            无聊爬下来的资源，因为拿不到具体链接，无法做页面适配，所以看起来有点奇怪,</br>而且快要播放完毕的时候需要手动点击下一集，总之使用起来效果很一般.</br>
+  使用说明:</br>
+     1.快要听完时，直接点击下一集。</br>
+     2.在输入框输入数字 （例如100），然后点击下一集，可以直接跳转到100集收听.</br>
+</body>
+</html>
+
+
+
+
+
+
+
+
