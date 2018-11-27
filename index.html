@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,13 +24,15 @@
             if(idnum!="")
             {
                 var num=idnum;
+                
             }
             else
             {
                 var num=parseInt( str2[0])+1;
+                
             }
             document.getElementById("idnum").value="";
-            document.title="凡人修仙传"+ (parseInt( str2[0])+1)+"集";
+            document.title="凡人修仙传"+ num+"集";
             var url_to ="https://www.ysts8.com/play/flw.asp?url=%D0%FE%BB%C3%D0%A1%CB%B5%2F2009%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB" +num+"%2Emp3&said=49";
            document.getElementById("form").src=  url_to  ;
            
@@ -57,11 +59,3 @@
      2.在输入框输入数字 （例如100），然后点击下一集，可以直接跳转到100集收听.</br>
 </body>
 </html>
-
-
-
-
-
-
-
-
