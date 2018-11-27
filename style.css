@@ -24,13 +24,13 @@ audio{
 }
 button.last
 {
-    float: left;
+   
     width: 100px;
     height: 60px;
 }
 button.next
 {
-    float:right;
+    
     width: 100px;
     height: 60px;
 }
