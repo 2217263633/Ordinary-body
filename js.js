@@ -25,7 +25,7 @@
             }
             document.getElementById("idnum").value="";
             document.title="凡人修仙传"+ num+"集";
-            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+".mp3?1403345148699x1543408508x1403351279359-e6cde6b3bb0a5b7616a7595ccdd00e01?1";
+            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+".mp3?1831845711866x1543421699x1831851842526-70a79a8391c270f5491f63e7a424d91f?2";
             document.getElementById("form").src= url_to ;
         }
 
@@ -43,7 +43,7 @@
             }
             document.getElementById("idnum").value="";
             document.title="凡人修仙传"+ num+"集";
-            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+".mp3?1403345148699x1543408508x1403351279359-e6cde6b3bb0a5b7616a7595ccdd00e01?1";
+            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+".mp3?1831845711866x1543421699x1831851842526-70a79a8391c270f5491f63e7a424d91f?2";
             document.getElementById("form").src=  url_to  ;
             
         }
