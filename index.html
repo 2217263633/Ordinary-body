@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <script src="js.js"></script>
-  
     <title></title>
 </head>
-<title>无广告听书</title>
+<body>
+    <script>
+        function ff() {
+            var ss=document.getElementById("form").src;
+            var str= String(ss);
+            var str1= str.split("4%AB");
+            var str2= str1[2].split("%2E");
+            var idnum=document.getElementById("idnum").value;
+           
+            if(idnum!="")
+            {
+                var num=idnum;
+            
+            }
+            else
+            {
+                var num=parseInt( str2[0])+1;
+            }
+            document.getElementById("idnum").value="";
+            document.title= parseInt( str2[0])+1;
+            var url_to ="https://www.ysts8.com/play/flw.asp?url=%D0%FE%BB%C3%D0%A1%CB%B5%2F2009%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB" +num+"%2Emp3&said=49";
+           document.getElementById("form").src=  url_to  ;
+           
+        }
+    </script>
+<title></title>
 </head>
 <body>
-        <!-- autoplay="autoplay"  -->
+<iframe  id="form" src="https://www.ysts8.com/play/flw.asp?url=%D0%FE%BB%C3%D0%A1%CB%B5%2F2009%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB%2F%B7%B2%C8%CB%D0%DE%CF%C9%B4%AB129%2Emp3&said=49" width="645px" height="59px" scrolling="no" frameborder="0"></iframe>
+<input type="text" id="idnum">
 
-    <div class="header">  
-        <span>凡人修仙传</span>
-        <audio id="form" autoplay="autoplay" controls="controls" src="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0129.mp3?1831845711866x1543421699x1831851842526-70a79a8391c270f5491f63e7a424d91f?2"></audio>
-         
-            <button class="last" onclick="last()">上一集</button>
-            <input  class="input_num" type="text" id="idnum">
-            <button class="next" onclick="next()">下一集</button>  
-       
-    </div>
-    <script>
-        var audio= document.getElementById("form");
-        var button = document.getElementsByTagName("button");
-        audio.onended=function() 
-            {
-                    button[1].click();
-            };
-</script>
+<button onclick="ff()">下一集</button>
 </body>
 </html>
 
