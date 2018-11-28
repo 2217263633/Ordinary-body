@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="js.js"></script>
+  
     <title></title>
 </head>
 <title>无广告听书</title>
@@ -22,6 +23,14 @@
             <button class="next" onclick="next()">下一集</button>  
        
     </div>
+    <script>
+        var audio= document.getElementById("form");
+        var button = document.getElementsByTagName("button");
+        audio.onended=function() 
+            {
+                    button[1].click();
+            };
+</script>
 </body>
 </html>
 
