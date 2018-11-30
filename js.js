@@ -7,6 +7,7 @@
              str1= str.split("%BC%A0");
              str2= str1[2].split(".");
              idnum=document.getElementById("idnum").value;
+                url_tail="?1403345312230x1543572039x1403351442890-342aadce17b59f45d12f56e4e51e0481?3";
         }
         function last()
         {
@@ -25,7 +26,7 @@
             }
             document.getElementById("idnum").value="";
             document.title="凡人修仙传"+ num+"集";
-            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+"mp3?1403345302906x1543562737x1403351433566-09ea4de4ce3718f449c9787fffcb6005?3";
+            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+"mp3+"url_tail";
             document.getElementById("form").src= url_to ;
         }
 
@@ -43,7 +44,7 @@
             }
             document.getElementById("idnum").value="";
             document.title="凡人修仙传"+ num+"集";
-            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+".mp3?1403345302906x1543562737x1403351433566-09ea4de4ce3718f449c9787fffcb6005?3";
+            var url_to ="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0" +num+".mp3"+url_tail;
             document.getElementById("form").src=  url_to  ;
             
         }
@@ -51,7 +52,7 @@
         window.onload =function()
         {
             var audio= document.getElementById("form");
-            audio.src="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0001.mp3?1403345302906x1543562737x1403351433566-09ea4de4ce3718f449c9787fffcb6005?3";
+            audio.src="http://180e.ysts8.com:8000/%E7%8E%84%E5%B9%BB%E5%B0%8F%E8%AF%B4/2009/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0/%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0001.mp3"+url_tail;
              getname();
              document.title="凡人修仙传"+ parseInt( str2[0])+"集";
             
