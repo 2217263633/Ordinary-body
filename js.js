@@ -1,5 +1,5 @@
 
-        var ss,str,str1,str2,idnum;
+        var ss,str,str1,str2,idnum,url_tail;
         function getname()
         {
              ss=document.getElementById("form").src;
@@ -7,7 +7,7 @@
              str1= str.split("%BC%A0");
              str2= str1[2].split(".");
              idnum=document.getElementById("idnum").value;
-                url_tail="?1403345312230x1543572039x1403351442890-342aadce17b59f45d12f56e4e51e0481?3";
+             url_tail="?1403345312230x1543572039x1403351442890-342aadce17b59f45d12f56e4e51e0481?3";
         }
         function last()
         {
