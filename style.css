@@ -12,31 +12,28 @@ body{
     
     background: #fff;
 }
-div.header
+.header
 {
-    
+    padding-top: 15rem;
     width: 50%;
-    margin:200px auto;
+    margin:0 auto;
     text-align: center;
+}
+.wapper,p
+{
+    min-width: 300px;
 }
 audio{
     width: 100%;
 }
-button.last
+.last,.next
 {
-   
-    width: 100px;
-    height: 60px;
-}
-button.next
-{
-    
-    width: 100px;
-    height: 60px;
+    width: 3rem;
+    height: 3rem;
 }
 
 input.input_num
 {
     width: 60%;
-    height: 60px;
+    height: 3rem    ;
 }
