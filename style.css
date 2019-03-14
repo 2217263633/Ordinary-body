@@ -32,7 +32,7 @@ audio{
 }
 .last,.next
 {
-    height: 3rem;
+    height: 50px;
 }
 .inputcenter
 {
@@ -41,6 +41,7 @@ audio{
 }
 .input_num
 {
+    width: 50%;
     padding: 0 10px 0 0;
     font-size: 20px;
     height: 3rem;
