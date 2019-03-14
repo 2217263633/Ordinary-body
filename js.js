@@ -1,5 +1,7 @@
 
         var ss,str,str1,str2,idnum,url_tail;
+        //该变量是取自 https://www.ysts8.com/play_1836_49_1_1.html 在这个页面里面有iframe,可以直接在firefox浏览器查看控制台，
+        //对应格式复制黏贴即可，该网站一般一日更新多次，甚是麻烦，改日需要直接代码取iframe里面的内容，方可长期解决
         url_tail="?1231703606177x1552530124x1231709736837-05640dedc4e08cea5648d732d2c99261?3";
         function getname()
         {
