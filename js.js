@@ -2,7 +2,7 @@
         var ss,str,str1,str2,idnum,url_tail;
         //该变量是取自 https://www.ysts8.com/play_1836_49_1_1.html 在这个页面里面有iframe,可以直接在firefox浏览器查看控制台，
         //对应格式复制黏贴即可，该网站一般一日更新多次，甚是麻烦，改日需要直接代码取iframe里面的内容，方可长期解决
-        url_tail="?101024254241047x1552610946x101024260371707-425a3e3422b09b249e4db3d5c9421444?3";
+        url_tail="?1231703695090x1552619037x1231777093658-856a8275781830d7ca96954cb5db6e11?2";
         function getname()
         {
              ss=document.getElementById("form").src;
