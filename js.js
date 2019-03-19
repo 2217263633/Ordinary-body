@@ -72,7 +72,7 @@
                     button[1].click();
             };
         }
-        window.keydown = function(event){
+        document.keydown = function(event){
                 var e = event||window.event
                 if(e && e.keydown == 13){
                         next()
