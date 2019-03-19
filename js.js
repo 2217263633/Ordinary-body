@@ -72,10 +72,10 @@
                     button[1].click()
             };
         }
-        document.keydown = function(event){
+        document.onkeydown = function(event){
                 var e = event||window.event
                 if(e && e.keydown == 13){
-                         button[1].click()
+                         next();
                 }
         }
                         
