@@ -69,13 +69,13 @@
             
              audio.onended=function() 
             {
-                    button[1].click();
+                    button[1].click()
             };
         }
         document.keydown = function(event){
                 var e = event||window.event
                 if(e && e.keydown == 13){
-                        next()
+                         button[1].click()
                 }
         }
                         
