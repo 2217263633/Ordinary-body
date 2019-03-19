@@ -72,10 +72,10 @@
                     button[1].click()
             };
         }
-        document.onkeydown = function(event){
-                var e = event||window.event
-                if(e && e.keydown == 13){
-                         next();
-                }
-        }
+        document.onkeydown = function (event) {
+            var e = event || window.event;
+            if (e && e.keyCode == 13) { //回车键的键值为13
+                next();
+            }
+        };
                         
